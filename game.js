@@ -43,7 +43,7 @@ $(".btn").click(function()
                             //level is starting not new game
 
     document.querySelector("input").value=level;  //on completion this level
-    setTimeout(nextSequence(),1000);
+    setTimeout(nextSequence,1000);
   }
 
 
