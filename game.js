@@ -34,7 +34,7 @@ $(".btn").click(function()
     audio.play();
     setTimeout(function(){
           $("body").css("background-color","#011F3F");
-      }, 100);
+      }, 1000);
   }
   if(i===level && flag===0)
   {
